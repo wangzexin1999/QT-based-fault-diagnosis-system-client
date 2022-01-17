@@ -589,8 +589,8 @@ void MainWindowPrivate::setupUi(MainWindow *mainWinowPtr)
 
     ribbonApplicationButton = qobject_cast<SARibbonApplicationButton *>(menuBar->applicationButton());
 
-    ribbonRightTopBar = menuBar->activeTabBarRightButtonGroup();
-    ribbonRightTopBar->addAction(actionAbout);
+//    ribbonRightTopBar = menuBar->activeTabBarRightButtonGroup();
+//    ribbonRightTopBar->addAction(actionAbout);
 
     //! 3.2 Main Category Page
     mainRibbonCategory = menuBar->addCategoryPage(QStringLiteral("Main"));
